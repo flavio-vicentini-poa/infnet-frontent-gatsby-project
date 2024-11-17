@@ -1,49 +1,34 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+## Sobre o projeto
 
-## 🚀 Quick start
+- Projeto da disciplina "Front-end Jamstack com Gatsby [24E4_2]" do curso de pós-graduação em Desenvolvimento Full-Stack do INFNET.
 
-1.  **Create a Gatsby site.**
+- Tecnologias utilizadas: Gatsby, React e Tailwind
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- A aplicação consiste em um simples blog de notícias de video games nomeado "Game News".
+  O blog conta com três páginas principais: uma home que descreve o blog, uma página contato para que o usuário possa encaminhar uma mensagem e uma página notícias onde são apresentadas os cards das notícias. Ao clicar em cada card de notícia o usuário é encaminhado para uma nova página onde será apresentado o conteúdo da notícia.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+- Este simples projeto não tem pretensão comercial é apenas um projeto para entender o funcionamento do framework Gatsby. Todas as notícias foram retiradas do site da [**_IGN BRASIL_**](https://br.ign.com/). No corpo das notícias foram dados dos créditos aos devidos autores.
 
-2.  **Start developing.**
+- Este projeto não visa ter um layout elaborado. Foi feita apenas uma simples estilização utilizando o Tailwind. O principal foco foi o de elaborar uma aplicação com o Gatsby, utilizar o React e fazer o deploy em um CDN.
 
-    Navigate into your new site’s directory and start it up.
+## Deploy da aplicação
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+[https://game-news.netlify.app/](https://netlify.com/)
 
-3.  **Open the code and start customizing!**
+## Instalação do Projeto
 
-    Your site is now running at http://localhost:8000!
+### Requerimentos
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+Você irá precisar do [Node.js](https://nodejs.org/en) instalado para rodar localmente a aplicação
 
-4.  **Learn more**
+### Instalação das dependências da aplicação
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```bash
+npm install
+```
 
-## 🚀 Quick start (Netlify)
+### Executar a aplicação localmente
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+```bash
+npm start
+```
