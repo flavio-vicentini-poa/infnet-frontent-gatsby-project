@@ -13,7 +13,7 @@
 
 ## Deploy da aplicação
 
-[https://game-news.netlify.app/](https://netlify.com/)
+[https://infnet-game-news.vercel.app/](https://infnet-game-news.vercel.app/)
 
 ## Instalação do Projeto
 
